@@ -13,7 +13,7 @@
         left_layer_control: left_layer_control {
             compatible = "zmk,behavior-hold-tap";
             label = "LEFT_LAYER_CONTROL";
-            bindings = <&mo>, <&to>;
+            bindings = <&mo>, <&tog>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -22,10 +22,11 @@
         rigth_layer_control: rigth_layer_control {
             compatible = "zmk,behavior-hold-tap";
             label = "RIGTH_LAYER_CONTROL";
-            bindings = <&mo>, <&to>;
+            bindings = <&mo>, <&tog>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+            retro-tap;
         };
     };
 
