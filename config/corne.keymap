@@ -37,6 +37,13 @@
             bindings = <&kp GLOBE &kp LEFT_CONTROL &kp SPACE>;
             label = "SUGEST_PARAMS_AUTOCOMPLET";
         };
+
+        salvar: salvar {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_COMMAND &kp S>;
+            label = "SALVAR";
+        };
     };
 
     keymap {
@@ -66,7 +73,7 @@
 
             bindings = <
 &kp ESC    &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                  &kp TILDE       &kp CARET       &kp EXCL   &kp DLLR  &kp EQUAL  &kp BSPC
-&kp TAB    &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans                        &trans          &kp UP_ARROW    &trans     &trans    &trans     &trans
+&kp TAB    &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &salvar                       &trans          &kp UP_ARROW    &trans     &trans    &trans     &trans
 &kp LSHFT  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &sugest_params_autocomplet    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans    &trans     &trans
                                  &kp LGUI      &trans        &kp SPACE                     &kp RET         &trans          &kp RALT
             >;
