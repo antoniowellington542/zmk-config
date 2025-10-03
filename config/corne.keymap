@@ -46,6 +46,25 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        control {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <36 24>;
+        };
+
+        arroba {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <36 22>;
+        };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <36 23>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
