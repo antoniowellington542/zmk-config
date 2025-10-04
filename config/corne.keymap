@@ -52,16 +52,25 @@
         control {
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <36 24>;
+            layers = <0>;
         };
 
         arroba {
             bindings = <&kp AT_SIGN>;
             key-positions = <36 22>;
+            layers = <0>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <36 23>;
+            layers = <0>;
+        };
+
+        autosugestion {
+            bindings = <&sugest_params_autocomplet>;
+            key-positions = <24 38>;
+            layers = <0>;
         };
     };
 
