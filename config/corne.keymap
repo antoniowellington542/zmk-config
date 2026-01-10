@@ -96,10 +96,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESC    &kp Q  &kp W        &kp E        &kp R                    &kp T        &kp Y    &kp U                     &kp I      &kp O    &kp P     &kp BSPC
-&kp TAB    &kp A  &kp S        &kp D        &kp F                    &kp G        &kp H    &kp J                     &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &mt LC(C) X  &mt RA(C) C  &kp V                    &kp B        &kp N    &kp M                     &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS
-                               &kp LGUI     &left_layer_control 3 1  &kp SPACE    &kp RET  &rigth_layer_control 4 2  &kp RALT
+&kp ESC    &kp Q  &kp W        &kp E        &kp R                    &kp T        &kp DOT    &kp Y                     &kp U     &kp I  &kp O     &kp BSPC
+&kp TAB    &kp A  &kp S        &kp D        &kp F                    &kp G        &kp COMMA  &kp H                     &kp J     &kp K  &kp P     &kp SQT
+&kp LSHFT  &kp Z  &mt LC(C) X  &mt RA(C) C  &kp V                    &kp B        &kp MINUS  &kp M                     &kp M     &kp L  &kp FSLH  &kp SEMICOLON
+                               &kp LGUI     &left_layer_control 3 1  &kp SPACE    &kp RET    &rigth_layer_control 4 2  &kp RALT
             >;
         };
 
