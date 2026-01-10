@@ -150,5 +150,14 @@
                             &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
+
+        lol_layer {
+            bindings = <
+&kp ESC         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp P        &trans     &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp Q         &kp W         &kp E             &kp R         &kp B        &trans     &trans  &trans  &trans  &trans  &trans
+&trans          &kp A         &kp S         &kp D             &kp F         &trans       &trans     &trans  &trans  &trans  &trans  &trans
+                                            &kp LEFT_COMMAND  &trans        &kp SPACE    &kp ENTER  &trans  &trans
+            >;
+        };
     };
 };
