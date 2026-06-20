@@ -152,9 +152,9 @@
 
         lol_layer {
             bindings = <
-&kp ESC         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp P        &trans     &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp Q         &kp W         &kp E             &kp R         &kp B        &trans     &trans  &trans  &trans  &trans  &trans
-&trans          &kp A         &kp S         &kp D             &kp F         &trans       &trans     &trans  &trans  &trans  &trans  &trans
+&kp TAB         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp D        &trans     &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp Q         &kp W         &kp E             &kp R         &kp F        &trans     &trans  &trans  &trans  &trans  &trans
+&kp G           &kp A         &kp S         &kp P             &kp B         &kp X        &trans     &trans  &trans  &trans  &trans  &trans
                                             &kp LEFT_COMMAND  &trans        &kp SPACE    &kp ENTER  &trans  &trans
             >;
         };
