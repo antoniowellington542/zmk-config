@@ -111,10 +111,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp EXCL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT     &kp EQUAL  &kp QMARK     &kp TILDE  &kp CARET  &kp EXCL        &kp DLLR         &kp EQUAL  &kp BSPC
-&kp TAB   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH   &kp PIPE   &kp BSLH      &trans     &trans     &kp UP_ARROW    &trans           &trans     &trans
-&kp AMPS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER  &kp GRAVE  &kp DOLLAR    &trans     &kp LEFT   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans     &trans
-                                                       &kp LGUI   &trans     &kp SPACE     &kp RET    &trans     &kp RALT
+&kp TAB         &kp EXCLAMATION  &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT     &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
+&kp LCTRL       &kp NUMBER_1     &kp NUMBER_2  &kp N3        &kp NUMBER_4  &kp NUMBER_5    &kp MINUS       &kp EQUAL      &kp GRAVE     &kp LEFT_BRACKET      &kp RBKT               &kp PIPE
+&kp LEFT_SHIFT  &kp NUMBER_6     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp UNDERSCORE  &kp PLUS       &kp TILDE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RIGHT_ALT
+                                               &kp LGUI      &trans        &kp SPACE       &kp RET         &kp BACKSPACE  &trans
             >;
         };
 
